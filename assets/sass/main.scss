@@ -1,0 +1,25 @@
+
+// abstracts
+@import
+  'abstracts/variables';
+
+// vendors
+@import
+  'vendors/bootstrap-4.4.1/bootstrap.scss';
+
+// base
+@import
+  'base/base',
+  'base/reset',
+  'base/typography';
+
+// components
+@import
+ 'components/buttons',
+ 'components/navbar';
+
+// layout
+ @import
+ 'layout/header',
+ 'layout/author',
+ 'layout/main';

@@ -1,0 +1,26 @@
+.navbar {
+background-color: white !important;
+flex-wrap: unset;
+}
+
+.fa-search,
+.fa-video,
+.fa-plus,
+.fa-bell,
+.fa-bars {
+    margin-left: 20px;
+    font-size: 1.5em;
+    vertical-align: middle;
+
+}
+
+@media (max-width: 623px) {
+
+    .fa-search,
+    .fa-video,
+    .fa-plus,
+    .fa-bell {
+        display: none;
+    }
+
+}

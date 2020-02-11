@@ -1,0 +1,26 @@
+.btn {
+    margin-left: 10px !important;
+}
+
+@media (max-width: 623px) {
+    .profile__buttons {
+        
+        display: none;
+    }
+}
+
+.author__buttons {
+
+    .btn-primary {
+        color: #fff;
+        background-color: #5edaddd1;
+        border-color: #5edaddd1;
+        border-radius: unset;
+    }
+
+    .btn-danger {
+        background-color: #ed6060;
+        border-color: #ed6060;
+        border-radius: unset;
+    }
+}
